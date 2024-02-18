@@ -1,0 +1,93 @@
+.input {
+  display: flex;
+  width: 90%;
+  height: 30px;
+  position: relative;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input__box {
+  width: 100%;
+  height: 0%;
+  border-radius: 50px;
+  padding: 20px 10px;
+  border: none;
+  transition: 0.2s;
+  box-shadow: inset 0 0 15px rgb(139, 139, 139);
+}
+
+.input__box:focus {
+  box-shadow: 0 0 10px 1000px rgba(45, 45, 45, 0.772);
+  outline: none;
+}
+.priority-buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+#left-edge {
+  border-radius: 20px 0 0 20px;
+}
+#right-edge {
+  border-radius: 0 20px 20px 0;
+}
+.input_submit1 {
+  background-color: #919191;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.6s;
+}
+
+.input_submit1:hover {
+  box-shadow: inset 0 0 15px rgb(202, 202, 202);
+  /* transform: scale(0.9); */
+}
+.input_submit1.selected {
+  background-color: rgb(55, 100, 214);
+  color: #fff;
+}
+
+.buttons {
+  position: absolute;
+  right: 0;
+  display: flex;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+}
+.submit-button {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  font-size: 11px;
+  margin-right: 6px;
+  border-radius: 50px;
+  right: 0;
+  border: none;
+  color: white;
+  transition: 0.2s all;
+  display: flex;
+}
+.input_submit {
+  background-color: rgb(55, 100, 214);
+  color: white;
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  width: 55px;
+  transition: transform 0.6s, letter-spacing 0.6s;
+}
+.input_submit:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  box-shadow: inset 0 0 15px rgb(0, 200, 255);
+  letter-spacing: 1px;
+}
+
+.input_submit:active {
+  transform: scale(0.8);
+  box-shadow: inset 0 0 15px rgb(0, 200, 255);
+}

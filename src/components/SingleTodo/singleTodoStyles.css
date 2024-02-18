@@ -1,0 +1,44 @@
+.todos__single {
+  background-color: rgb(68, 68, 68);
+  width: 90%;
+  border-radius: 5px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  font-size: 13px;
+  transition: transform 0.3s ease;
+}
+.todos__single.high {
+  border-left: 5px solid red;
+}
+.todos__single.medium {
+  border-left: 5px solid yellow;
+}
+.todos__single.low {
+  border-left: 5px solid rgb(0, 185, 0);
+}
+.todos__single:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.todos__single form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todos__single--text:focus {
+  outline: none;
+}
