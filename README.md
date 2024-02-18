@@ -1,5 +1,5 @@
 # About the app
-A todo list, with add, edit and delete features. You can drag and drop them to arrange them into 3 main groups named Added Tasks, Started Tasks, Completed Tasks. It also has a priority selection which adds color coded option when adding the todo, defaulted as low. It also has toast popups showing what just happened. It is made using react and typescript.
+A todo list, with add, edit and delete features. You can drag and drop them to arrange them into 3 main groups named Added Tasks, Started Tasks, Completed Tasks. It also has a priority selection which adds color coded option when adding the todo, defaulted as low. It also has toast popups showing what just happened. It is made using react and typescript and it has persistent storage using local storage.
 
 # Steps to replicate on local machine
 1. Clone the repository
